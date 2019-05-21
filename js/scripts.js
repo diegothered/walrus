@@ -8,6 +8,10 @@ $(document).ready(function() {
     $(".gif-show").slideToggle();
     $(".gif-hide").slideToggle();
   });
+  $("button#green").click(function() {
+
+    $("body").toggleClass("green-background");
+  });
 })
 
   // $

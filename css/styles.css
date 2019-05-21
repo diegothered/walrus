@@ -14,3 +14,7 @@
 .clickable-suit:hover, .clickable-fatman:hover {
   text-decoration: underline;
 }
+
+.green-background {
+  background-color: green;
+}
