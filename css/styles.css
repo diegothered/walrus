@@ -2,11 +2,15 @@
   display: none
 }
 
-.clickable {
+.gif-show {
+  display: none
+}
+
+.clickable-suit, .clickable-fatman {
   cursor: pointer;
   color: #0088cc;
 }
 
-.clickable:hover {
+.clickable-suit:hover, .clickable-fatman:hover {
   text-decoration: underline;
 }

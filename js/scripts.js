@@ -1,9 +1,16 @@
 $(document).ready(function() {
-  $(".clickable").click(function() {
+  $(".clickable-suit").click(function() {
     $(".walrus-showing").slideToggle();
     $(".walrus-hidden").slideToggle();
   });
-});
+
+  $(".clickable-fatman").click(function() {
+    $(".gif-show").slideToggle();
+    $(".gif-hide").slideToggle();
+  });
+})
+
+  // $
 // $(document).ready(function() {
 //   $("h1").click(function() {
 //   alert("This is a header.");
